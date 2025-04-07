@@ -1,0 +1,124 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para o cabeçalho e navegação */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro .btn:hover {
+    background-color: #555;
+}
+
+/* Estilo das seções */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.sobre {
+    background-color: #fff;
+}
+
+.projetos {
+    background-color: #f9f9f9;
+}
+
+.contato {
+    background-color: #fff;
+}
+
+/* Estilo para os projetos */
+.projeto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projeto h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.projeto p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .projeto {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
